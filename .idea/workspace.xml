@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b682f50d-8db9-4a15-9101-fa2e84248ad7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameplay/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameplay/admin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +56,7 @@
         <counts>
           <entry key="auth_group" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="py" value="21" />
+          <entry key="py" value="22" />
           <entry key="sql" value="1" />
           <entry key="sqlite3" value="1" />
         </counts>
@@ -71,20 +65,20 @@
         <counts>
           <entry key="Database Element" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="22" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="14" />
-          <entry key="py" value="878" />
+          <entry key="py" value="1018" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="878" />
+          <entry key="Python" value="1018" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -95,15 +89,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameplay/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1534645629709" expanded="true" signature="280:847" ph="..." />
-                <marker date="1534645629709" expanded="true" signature="872:877" ph="..." />
+                <marker date="1534645667810" expanded="true" signature="280:906" ph="..." />
+                <marker date="1534645667810" expanded="true" signature="931:936" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gameplay/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1534646454908" expanded="true" signature="122:225" ph="..." />
               </folding>
             </state>
           </provider>
@@ -121,8 +128,8 @@
         <option value="$PROJECT_DIR$/tictactoe/.gitignore" />
         <option value="$PROJECT_DIR$/tictactoe/settings.py" />
         <option value="$PROJECT_DIR$/tictactoe/urls.py" />
-        <option value="$PROJECT_DIR$/gameplay/admin.py" />
         <option value="$PROJECT_DIR$/gameplay/models.py" />
+        <option value="$PROJECT_DIR$/gameplay/admin.py" />
       </list>
     </option>
   </component>
@@ -300,16 +307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameplay/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tictactoe/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -322,12 +319,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gameplay/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1534645629709" expanded="true" signature="280:847" ph="..." />
-            <marker date="1534645629709" expanded="true" signature="872:877" ph="..." />
+            <marker date="1534645667810" expanded="true" signature="280:906" ph="..." />
+            <marker date="1534645667810" expanded="true" signature="931:936" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameplay/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1534646454908" expanded="true" signature="122:225" ph="..." />
           </folding>
         </state>
       </provider>
